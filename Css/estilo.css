@@ -1,0 +1,243 @@
+@charset "UTF-8";
+.c-naranja {
+  color: orange;
+}
+
+.texto__general {
+  color: white;
+}
+
+.texto__secundario {
+  color: black;
+}
+
+/*Body*/
+/*Header*/
+#portadaHeader img {
+  margin: 15px;
+  padding: auto;
+}
+
+.estiloBody {
+  background-color: black;
+}
+
+.estiloBodyArtistas {
+  background-color: black;
+}
+
+/*Nav*/
+.estilo__Nav {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.estilo__Nav--tamaño {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.estilo__Nav a:hover {
+  background-color: orange;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.estilo__Nav li {
+  margin: 5px;
+}
+
+/*Contacto*/
+#boton {
+  background-color: orange;
+  border-color: orange;
+  font-size: 17px;
+}
+
+#cajaContacto {
+  margin: 0px;
+  padding: 20px;
+  width: 100%;
+}
+
+.contacto__estilo {
+  text-align: center;
+}
+
+.contacto__estilo--posicion {
+  margin-top: 50px;
+}
+
+/*Modal*/
+.estiloModal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+/*Main*/
+.home__texto {
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home__texto--tamanio {
+  margin: 20px;
+  font-size: 22px;
+}
+
+/*Redes article*/
+#publicidad {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#publicidad img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.rebotes {
+  -webkit-animation: rebote 1s  infinite;
+          animation: rebote 1s  infinite;
+}
+
+@-webkit-keyframes rebote {
+  20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  65% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@keyframes rebote {
+  20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  65% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+/*Portada*/
+#homePortada img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+/*Footer*/
+.footer__estilo {
+  text-align: center;
+  border-color: orange;
+}
+
+.footer__estilo--tamanio {
+  margin: 0px;
+  font-size: 15px;
+}
+
+/*Podcast*/
+.estiloPodcast iframe {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*Artistas */
+#estiloArtistas p {
+  color: white;
+  font-size: 14px;
+}
+
+#estiloArtistas a {
+  color: orange;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/*Releases*/
+.release__estilo h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.release__estilo--color h2 {
+  color: white;
+}
+
+.release__estilo--tamanio {
+  font-size: 30px;
+}
+
+.release__estilo a {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 17px;
+}
+
+/*Aside*/
+.aside {
+  margin: 0px;
+}
+
+.estilo__Nav--tamaño-20px {
+  font-size: 20px;
+}
+
+.footer__estilo--tamanio-20px {
+  font-size: 20px;
+}
+
+.release__estilo--tamanio-20px {
+  font-size: 20px;
+}
+
+.estilo__Nav--tamaño-15px {
+  font-size: 15px;
+}
+
+.footer__estilo--tamanio-15px {
+  font-size: 15px;
+}
+
+.release__estilo--tamanio-15px {
+  font-size: 15px;
+}
+
+.estilo__Nav--tamaño-30px {
+  font-size: 30px;
+}
+
+.footer__estilo--tamanio-30px {
+  font-size: 30px;
+}
+
+.release__estilo--tamanio-30px {
+  font-size: 30px;
+}
+
+/*Titulos*/
+.estilo__Titulos {
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=estilo.css.map */

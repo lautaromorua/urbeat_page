@@ -1,0 +1,168 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.c-naranja {
+    color: orange;
+}
+
+.c-blanco {
+    color: white;
+}
+
+.c-negro {
+    color: black;
+}
+
+/*Body*/
+/* body {
+    background-image: url(../Imagenes2/fotonueva.png);
+    background-position: center;
+} */
+
+#portadaHeader img {
+    margin: 15px;
+    padding: auto;
+}
+
+.estiloBody {
+    background-color: black;
+}
+
+.estiloBodyArtistas {
+background-color: black;
+}
+
+/*Nav*/
+
+.estiloNav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.estiloNav a:hover {
+    background-color: orange;
+    justify-content: space-evenly;
+}
+
+.estiloNav li {
+    margin: 5px;
+}
+
+/*Contacto*/
+
+#boton {
+    background-color: orange;
+    border-color: orange;
+    font-size: 17px;
+}
+
+#cajaContacto {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+}
+.estiloContacto {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.estiloModal {
+    font-size: 17px;
+}
+
+/*Main*/
+
+.textoHome {
+    margin: 20px;
+    font-size: 22px;
+    color: white;
+    justify-content: center;
+}
+
+#publicidad {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#publicidad img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.rebotes {
+    animation: rebote 1s  infinite;
+}
+
+@keyframes rebote {
+    20%, 50%, 80% {
+    transform: translateY(0);
+    }
+
+    40% {
+    transform: translateY(-30px);
+    }
+
+    65% {
+    transform: translateY(-15px);
+    }
+}
+
+/*Portada*/
+
+#homePortada img {
+    display: flex;
+    margin: auto;
+}
+
+/*Footer*/
+.estiloFooter {
+    margin: 0px;
+    font-size: 15px;
+    text-align: center;
+    border-color:orange;
+}
+
+/*Podcast*/
+
+
+.estiloPodcast iframe {
+    justify-content: space-between;
+}
+
+/*Artistas */
+
+#estiloArtistas p {
+    color: white;
+    font-size: 14px;
+}
+
+#estiloArtistas a {
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/*Releases*/
+
+.estiloReleases h2 {
+    font-size: 25px;
+}
+
+.estiloReleases a {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.aside {
+    margin: 0px;
+}
