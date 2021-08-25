@@ -1,4 +1,4 @@
-Proyecto para CoderHouse
+Proyecto para CoderHouse.
 
 Esta pagina de una productora de música electrónica surgió para un proyecto de un curso.
 
