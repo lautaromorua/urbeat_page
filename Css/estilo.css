@@ -36,6 +36,10 @@
   margin-top: 5px;
 }
 
+.colorFondo {
+  background-color: black;
+}
+
 .estilo__Nav a:hover {
   background-color: orange;
   -webkit-box-pack: space-evenly;
