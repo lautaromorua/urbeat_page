@@ -11,7 +11,7 @@
   color: black;
 }
 
-/*Body*/
+
 /*Header*/
 #portadaHeader img {
   margin: 15px;
@@ -25,6 +25,7 @@
 .estiloBodyArtistas {
   background-color: black;
 }
+
 
 /*Nav*/
 .estilo__Nav {
@@ -51,6 +52,7 @@
   margin: 5px;
 }
 
+
 /*Contacto*/
 #boton {
   background-color: orange;
@@ -72,11 +74,13 @@
   margin-top: 50px;
 }
 
+
 /*Modal*/
 .estiloModal {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
 }
+
 
 /*Main*/
 .home__texto {
@@ -91,6 +95,7 @@
   font-size: 22px;
 }
 
+
 /*Redes article*/
 #publicidad {
   color: white;
@@ -103,6 +108,8 @@
   margin: 10px;
 }
 
+
+/*Animacion*/
 .rebotes {
   -webkit-animation: rebote 1s  infinite;
           animation: rebote 1s  infinite;
@@ -138,6 +145,7 @@
   }
 }
 
+
 /*Portada*/
 #homePortada img {
   display: -webkit-box;
@@ -145,6 +153,7 @@
   display: flex;
   margin: auto;
 }
+
 
 /*Footer*/
 .footer__estilo {
@@ -157,12 +166,14 @@
   font-size: 15px;
 }
 
+
 /*Podcast*/
 .estiloPodcast iframe {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 
 /*Artistas */
 #estiloArtistas p {
@@ -175,6 +186,7 @@
   font-size: 20px;
   text-decoration: none;
 }
+
 
 /*Releases*/
 .release__estilo h2 {
@@ -194,6 +206,7 @@
   list-style-type: none;
   font-size: 17px;
 }
+
 
 /*Aside*/
 .aside {
@@ -235,6 +248,7 @@
 .release__estilo--tamanio-30px {
   font-size: 30px;
 }
+
 
 /*Titulos*/
 .estilo__Titulos {
