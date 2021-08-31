@@ -91,13 +91,13 @@
   font-size: 22px;
 }
 
-/*Redes article*/
+/*Article redes*/
 .publicidad {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.publicidad img {
+.publicidad > img {
   width: 40px;
   height: 40px;
   margin: 10px;
